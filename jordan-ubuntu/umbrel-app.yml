@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tibor309-ubuntu
+id: jordan-ubuntu
 name: Ubuntu
 tagline: Fast, modern and secure linux 
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/icon.svg
@@ -11,7 +11,7 @@ description: >-
 
 developer: Canonical Ltd.
 website: https://ubuntu.com/desktop
-submitter: Tibor309
+submitter: Jordan
 submission:
 repo: https://github.com/tibor309/webtop/tree/ubuntu
 support: https://github.com/tibor309/webtop/issues

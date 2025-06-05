@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tibor309-zen
+id: jordan-zen
 name: Zen Browser
 tagline: Welcome to a calmer internet
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/icon.svg
@@ -13,7 +13,7 @@ description: >-
 
 developer: Zen Browser Team
 website: https://www.zen-browser.app/
-submitter: Tibor309
+submitter: Jordan
 submission:
 repo: https://github.com/tibor309/zen
 support: https://docs.zen-browser.app/

@@ -3,16 +3,16 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-brave_server_1
+      APP_HOST: tibor309-zen_server_1
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/brave:1.79.118@sha256:288d678d1b76766d4e314e3df78c6c30a13dadee88864363378b98c7e708891d
+    image: ghcr.io/tibor309/zen:1.7.4b@sha256:536fc181e0870f5a3b00a4104f29c32b494ba12b5bf2836f242c831a09c5e8c7
     restart: on-failure
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Europe/London
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
     shm_size: "1gb"
